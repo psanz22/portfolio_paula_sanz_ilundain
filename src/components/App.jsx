@@ -1,14 +1,10 @@
 import '../scss/App.scss';
-<<<<<<< HEAD
 import arrow from '../../public/arrow.svg';
 import scrollDown from '../../public/ico-scroll-down.svg';
 import menu from '../../public/ico-menu.svg';
 import one from '../../public/1.png';
 import two from '../../public/2.png';
 import three from '../../public/3.png';
-=======
-import { useState } from 'react';
->>>>>>> 38642145b41d84359f4f7d48d7caab9db0cf82d3
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -30,7 +26,6 @@ function App() {
     setCounter(0);
   };
   return (
-<<<<<<< HEAD
     <>
       <header>
         <a title='Menú' href='https://adalab.es/' target='_blank'>
@@ -158,14 +153,6 @@ function App() {
         </div>
       </footer>
     </>
-=======
-    <div>
-      <h1>Contador: {counter}</h1>
-      <button onClick={handleSum}>+</button>
-      <button onClick={handleRest}>-</button>
-      <button onClick={handleReset}>reset</button>
-    </div>
->>>>>>> 38642145b41d84359f4f7d48d7caab9db0cf82d3
   );
 }
 
