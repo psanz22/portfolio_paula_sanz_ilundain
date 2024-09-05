@@ -7,24 +7,6 @@ import two from '../../public/2.png';
 import three from '../../public/3.png';
 
 function App() {
-  const [counter, setCounter] = useState(0);
-
-  const sum = (a) => {
-    return a + 1;
-  };
-  const rest = (a) => {
-    return a - 1;
-  };
-  const handleSum = () => {
-    console.log('click');
-    setCounter(sum(counter));
-  };
-  const handleRest = () => {
-    setCounter(rest(counter));
-  };
-  const handleReset = () => {
-    setCounter(0);
-  };
   return (
     <>
       <header>
