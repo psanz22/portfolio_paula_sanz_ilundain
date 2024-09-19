@@ -1,30 +1,22 @@
 import '../scss/App.scss';
 import Header from '../components/Header';
+import Main from '../components/Main';
 
 function App() {
   return (
     <>
       <Header />
-      {/* <main>
-        <aside>
-          <img
-            src='https://static.vecteezy.com/system/resources/previews/012/002/361/original/me-letter-logo-design-initial-letters-me-logo-icon-abstract-letter-me-minimal-logo-design-template-m-e-letter-design-with-black-colors-me-logo-vector.jpg'
-            alt='about me'
-          />
-        </aside>
-        <section>
-          <img
-            src='https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/12/arcane-jinx-2575357.jpg?tf=3840x'
-            alt='proyectos'
-          />
-        </section>
-      </main>
-      <footer>
-        <ul>
-          <a href=''>Linkedin</a>
-          <a href=''>Github</a>
+      <Main />
+      <footer className='footer'>
+        <ul className='footer__nav'>
+          <a href='' className='footer__nav__linkedin'>
+            Linkedin
+          </a>
+          <a href='' className='footer__nav__git'>
+            Github
+          </a>
         </ul>
-      </footer> */}
+      </footer>
     </>
   );
 }

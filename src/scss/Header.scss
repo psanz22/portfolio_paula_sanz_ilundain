@@ -1,0 +1,17 @@
+.header {
+  height: 20vh;
+  margin: 7px 7px 0px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 5px solid lightblue;
+
+  &__nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  &__img {
+    width: 20%;
+  }
+}

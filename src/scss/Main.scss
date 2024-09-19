@@ -1,0 +1,40 @@
+.main {
+  height: 70vh;
+  margin: 0px 7px;
+  &__aside {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__containerText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      width: 10%;
+    }
+    &__title {
+      color: yellow;
+      font-size: 3rem;
+      &-2 {
+        color: yellow;
+        font-size: 2rem;
+      }
+    }
+  }
+  &__section {
+    &__carroussel {
+      background-color: pink;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__img {
+      width: 50%;
+      border-radius: 1rem;
+    }
+  }
+}

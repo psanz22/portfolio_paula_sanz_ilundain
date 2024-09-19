@@ -1,21 +1,25 @@
 * {
-  margin: 7px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.header {
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 5px solid lightblue;
 
+.footer {
+  background-color: purple;
+  height: 10vh;
+  margin: 0px 7px 2px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &__nav {
     display: flex;
-    gap: 20px;
-    list-style: none;
-  }
-  &__img {
-    width: 20%;
+    gap: 30px;
+    &__linkedin,
+    &__git {
+      color: yellow;
+      &:hover {
+        color: lightblue;
+      }
+    }
   }
 }
