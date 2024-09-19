@@ -1,6 +1,6 @@
 # 🌐 Web Developer Portfolio
 
-Bienvenido a mi portafolio de desarrollo web. Aquí puedes explorar todos los proyectos en los que he trabajado, los cuales abarcan tanto el **frontend** como el **backend**. Mi enfoque principal ha sido construir aplicaciones modernas, eficientes y escalables utilizando diversas tecnologías. A continuación, podrás encontrar detalles sobre las herramientas y tecnologías que utilizo en cada área del desarrollo web.
+Bienvenido a mi portfolio de desarrollo web. Aquí puedes explorar todos los proyectos en los que he trabajado, los cuales abarcan tanto el **frontend** como el **backend**. Mi enfoque principal ha sido construir aplicaciones modernas, eficientes y escalables utilizando diversas tecnologías. A continuación, podrás encontrar detalles sobre las herramientas y tecnologías que utilizo en cada área del desarrollo web.
 
 ## 🛠️ Tecnologías
 
