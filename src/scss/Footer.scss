@@ -1,0 +1,19 @@
+.footer {
+  background-color: purple;
+  height: 10vh;
+  margin: 0px 7px 2px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__nav {
+    display: flex;
+    gap: 30px;
+    &__linkedin,
+    &__git {
+      color: yellow;
+      &:hover {
+        color: lightblue;
+      }
+    }
+  }
+}
