@@ -23,10 +23,9 @@
       width: 10%;
     }
     &__title {
-      color: yellow;
+      color: #b9d3b0;
       font-size: 2rem;
       &-2 {
-        color: yellow;
         font-size: 2rem;
       }
     }
@@ -44,17 +43,21 @@
       flex-direction: column;
       gap: 20px;
       &-button {
-        background-color: #b9d3b0;
+        background-color: #81bda4;
         height: 70px;
         width: 70px;
         border-radius: 50%;
+        &:hover {
+          background-color: #b9d3b0;
+        }
       }
     }
     &-button {
-      height: 150px;
-      width: 150px;
+      height: 130px;
+      width: 130px;
       border-radius: 50%;
       font-size: 3rem;
+      background-color: #81bda4;
     }
   }
   &__section {
@@ -84,7 +87,6 @@
   width: 1500px;
   will-change: transform;
   margin-right: 0;
-  //animation: 10s linear infinite;
 }
 @keyframes scrolling {
   0% {
