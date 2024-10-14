@@ -32,12 +32,12 @@ function Main() {
       </section>
       <aside className='main__aside__moving slider '>
         <div className='slide-track'>
-          <div className='slide'>
-            <h1 className='slide__title'>PROYECTOS DESTACADOS</h1>
-          </div>
-          <div className='slide'>
-            <h1 className='slide__title'>PROYECTOS DESTACADOS</h1>
-          </div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
+          <div className='slide'>PROYECTOS DESTACADOS</div>
         </div>
       </aside>
     </main>

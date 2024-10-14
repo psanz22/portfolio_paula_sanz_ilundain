@@ -69,21 +69,22 @@
 .slide-track {
   font-size: 6rem;
   display: flex;
-  gap: 20px;
-  padding-left: 1400px;
-  width: calc(1900px * 2);
-  animation: 20s linear infinite;
+  // gap: 50px;
+  padding-left: 0;
+  width: calc(1500px * 6);
+  animation: scrolling 15s linear infinite;
 }
 .slide {
-  width: 1900px;
+  width: 1500px;
   will-change: transform;
-  animation: scrolling 5s linear infinite;
+  margin-right: 0;
+  //animation: 10s linear infinite;
 }
 @keyframes scrolling {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1900px);
+    transform: translateX(-3000px);
   }
 }
