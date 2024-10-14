@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'font_one-bold';
   src: url('../fonts/Sono-Medium.woff2') format('woff2');
+
+  font-family: 'font_two';
+  src: url('../fonts/Amarillo.ttf') format('truetype');
 }
 
 .main {
@@ -25,6 +28,7 @@
     &__title {
       color: #b9d3b0;
       font-size: 2rem;
+      font-family: font_one;
       &-2 {
         font-size: 2rem;
       }
@@ -47,6 +51,7 @@
         height: 70px;
         width: 70px;
         border-radius: 50%;
+
         &:hover {
           background-color: #b9d3b0;
         }
@@ -56,8 +61,13 @@
       height: 130px;
       width: 130px;
       border-radius: 50%;
-      font-size: 3rem;
+      font-size: 2rem;
       background-color: #81bda4;
+      font-family: font_two;
+      &:hover {
+        background-color: #f88f79;
+        color: brown;
+      }
     }
   }
   &__section {
@@ -82,6 +92,7 @@
   padding-left: 0;
   width: calc(1500px * 6);
   animation: scrolling 15s linear infinite;
+  font-family: font_one;
 }
 .slide {
   width: 1500px;
