@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'font_one-bold';
+  src: url('../fonts/Sono-Medium.woff2') format('woff2');
+}
+
 .main {
   height: 80vh;
   margin: 0px 7px;
@@ -7,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: font_one-bold;
     &__containerText {
       display: flex;
       flex-direction: column;
