@@ -7,14 +7,22 @@ function Footer() {
   return (
     <footer className='footer'>
       <ul className='footer__nav'>
-        <a href='' className='footer__nav__linkedin'>
+        <a
+          href='https://www.linkedin.com/in/paula-sanz-ilundain/'
+          target='_blank'
+          className='footer__nav__linkedin'
+        >
           <FontAwesomeIcon
             icon={faLinkedinIn}
             size='3x'
             style={{ color: 'black' }}
           />
         </a>
-        <a href='' className='footer__nav__git'>
+        <a
+          href='https://github.com/psanz22'
+          target='_blank'
+          className='footer__nav__git'
+        >
           <FontAwesomeIcon
             icon={faGithubAlt}
             size='3x'

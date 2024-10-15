@@ -11,10 +11,17 @@ function MainAside() {
       </div>
       <div className='main__aside__rrss'>
         <button className='main__aside__rrss-button'>
-          <FontAwesomeIcon icon={faLinkedinIn} size='2x' />
+          <a
+            href='https://www.linkedin.com/in/paula-sanz-ilundain/'
+            target='_blank'
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} size='2x' />
+          </a>
         </button>
         <button className='main__aside__rrss-button'>
-          <FontAwesomeIcon icon={faGithubAlt} size='2x' />
+          <a href='https://github.com/psanz22' target='_blank'>
+            <FontAwesomeIcon icon={faGithubAlt} size='2x' />
+          </a>
         </button>
       </div>
     </aside>
