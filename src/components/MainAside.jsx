@@ -23,7 +23,7 @@ function MainAside() {
           </Link>
         </button>
         <button className='main__aside__rrss-button'>
-          <Link href='https://github.com/psanz22' target='_blank'>
+          <Link to='https://github.com/psanz22' target='_blank'>
             <FontAwesomeIcon icon={faGithubAlt} size='2x' />
           </Link>
         </button>
