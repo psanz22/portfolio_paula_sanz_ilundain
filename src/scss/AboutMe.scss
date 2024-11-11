@@ -1,5 +1,5 @@
 .wrapper__sobreMi {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   margin: 10px;
 }
@@ -12,18 +12,11 @@
   &__text {
     margin-top: 30px;
   }
-  &__button {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 1030px;
-    top: 200px;
-    border-radius: 50%;
+
+  &__img {
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 1rem;
   }
-}
-.sobreMi__img {
-  width: 400px;
-  height: 600px;
-  object-fit: cover;
-  border-radius: 1rem;
 }

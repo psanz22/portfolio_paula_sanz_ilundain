@@ -1,0 +1,33 @@
+//   background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/content_organization/5e6f5380097c1cba5cf7ddc3482294ed27bafa67-5070x2160.jpg');
+.animation {
+  width: 200px;
+  height: 200px;
+}
+.animation__text {
+  font-size: 200%;
+  position: absolute;
+  animation: girar 10s linear infinite;
+}
+.animation__text span {
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  transform-origin: 50% 100px;
+}
+.animation__button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/content_organization/5e6f5380097c1cba5cf7ddc3482294ed27bafa67-5070x2160.jpg');
+  background-size: cover;
+  background-position: center;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
