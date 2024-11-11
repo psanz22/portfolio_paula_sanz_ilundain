@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../scss/Footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -7,8 +8,8 @@ function Footer() {
   return (
     <footer className='footer'>
       <ul className='footer__nav'>
-        <a
-          href='https://www.linkedin.com/in/paula-sanz-ilundain/'
+        <Link
+          to='https://www.linkedin.com/in/paula-sanz-ilundain/'
           target='_blank'
           className='footer__nav__linkedin'
         >
@@ -17,9 +18,9 @@ function Footer() {
             size='3x'
             style={{ color: 'black' }}
           />
-        </a>
-        <a
-          href='https://github.com/psanz22'
+        </Link>
+        <Link
+          to='https://github.com/psanz22'
           target='_blank'
           className='footer__nav__git'
         >
@@ -28,7 +29,7 @@ function Footer() {
             size='3x'
             style={{ color: 'black' }}
           />
-        </a>
+        </Link>
       </ul>
     </footer>
   );
