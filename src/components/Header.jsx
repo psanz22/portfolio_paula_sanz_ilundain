@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../scss/Header.scss';
 import bird from '../../public/pajaro.png';
 
@@ -5,23 +6,26 @@ function Header() {
   return (
     <header className='header'>
       <div>
-        <img src={bird} alt='main page' className='header__img' />
+        <Link to='/'>
+          {' '}
+          <img src={bird} alt='main page' className='header__img' />
+        </Link>
       </div>
       <ul className='header__nav'>
         <li>
-          <a className='nav_link' href='#'>
+          <Link className='nav_link' to='/aboutme'>
             ABOUT ME
-          </a>
+          </Link>
         </li>
         <li>
-          <a href='#' className='nav_link'>
+          <Link to='proyectos' className='nav_link'>
             PROYECTOS
-          </a>
+          </Link>
         </li>
         <li>
-          <a className='nav_link' href='#'>
-            CONTACTOS
-          </a>
+          <Link className='nav_link' to='/contacto'>
+            CONTACTO
+          </Link>
         </li>
       </ul>
     </header>
