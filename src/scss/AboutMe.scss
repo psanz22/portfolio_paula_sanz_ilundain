@@ -1,22 +1,30 @@
 .wrapper__sobreMi {
+  // width: 20vw;
   height: 80vh;
   display: flex;
   margin: 10px;
 }
 .sobreMi {
-  margin: 200px;
+  margin: 20px;
+  padding: 20px;
+
   &__title {
     position: relative;
     top: 10px;
   }
   &__text {
     margin-top: 30px;
+    margin-right: 100px;
   }
 
   &__img {
-    width: 400px;
-    height: 800px;
+    width: 280px;
+    height: 500px;
     object-fit: cover;
     border-radius: 1rem;
+    position: relative;
+    bottom: 20px;
+    right: 35px;
+    z-index: -1;
   }
 }
