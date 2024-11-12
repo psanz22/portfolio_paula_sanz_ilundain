@@ -7,7 +7,7 @@ function AboutMe() {
     <div className='wrapper__sobreMi'>
       <div className='sobreMi'>
         <h1 className='sobreMi__title'>Sobre mi</h1>
-        <h1>______________________________________</h1>
+        <h1>_____________________________</h1>
         <p className='sobreMi__text'>
           Hey, me llamo Paula Sanz. Vengo del mundo audiovisual, donde descubrí
           mi pasión por las historias visuales y la creatividad. Con esa misma
@@ -20,7 +20,7 @@ function AboutMe() {
         </p>
         <a href='#'>curriculum vitae</a>
       </div>
-      <div>
+      <div className='wrapper__img'>
         <img
           className='sobreMi__img'
           src='https://www.mundodeportivo.com/alfabeta/hero/2022/01/fortnite-lol-arcane-skin.jpg?width=768&aspect_ratio=16:9&format=nowebp'
