@@ -6,7 +6,7 @@ function buttonAnimation() {
     <div className='animation'>
       <button className='animation__button'>klik</button>
       <div className='animation__text'>
-        <span>Texto en movimiento</span>
+        <span>Texto en movimiento</span> */}
       </div>
     </div>
   );

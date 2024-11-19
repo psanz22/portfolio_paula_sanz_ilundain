@@ -1,6 +1,6 @@
 import React from 'react';
 import '../scss/AboutMe.scss';
-import ButtonAnimation from './buttonAnimation';
+// import ButtonAnimation from './buttonAnimation';
 
 function AboutMe() {
   return (
@@ -26,7 +26,7 @@ function AboutMe() {
           src='https://www.mundodeportivo.com/alfabeta/hero/2022/01/fortnite-lol-arcane-skin.jpg?width=768&aspect_ratio=16:9&format=nowebp'
           alt=''
         />
-        <ButtonAnimation />
+        {/* <ButtonAnimation /> */}
       </div>
     </div>
   );
