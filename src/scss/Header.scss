@@ -5,11 +5,12 @@
 
 .header {
   background-color: #b9d3b0;
+  min-width: 380px;
   height: 8vh;
   margin: 7px 7px 0px 7px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border: 5px solid lightblue;
 
   &__nav {
@@ -18,7 +19,7 @@
     list-style: none;
   }
   &__img {
-    width: 15%;
+    width: 13%;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
   }
@@ -28,10 +29,19 @@
 }
 .nav_link {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: black;
   font-family: font_one;
   &:hover {
     color: salmon;
+  }
+}
+
+.button_menu {
+  padding: 6px;
+  border-radius: 50%;
+  border: lightblue solid 1px;
+  &:hover {
+    background-color: pink;
   }
 }

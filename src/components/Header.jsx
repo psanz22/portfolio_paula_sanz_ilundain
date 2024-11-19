@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../scss/Header.scss';
 import bird from '../../public/pajaro.png';
+import menu from '../../public/hamb-menu.png';
 
 function Header() {
   return (
@@ -11,7 +12,11 @@ function Header() {
           <img src={bird} alt='main page' className='header__img' />
         </Link>
       </div>
-      <ul className='header__nav'>
+      <button className='button_menu'>
+        {' '}
+        <img className='menu' src={menu} alt='menu' />
+      </button>
+      {/* <ul className='header__nav'>
         <li>
           <Link className='nav_link' to='/aboutme'>
             ABOUT ME
@@ -27,7 +32,7 @@ function Header() {
             CONTACTO
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </header>
   );
 }
