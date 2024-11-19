@@ -82,16 +82,15 @@
       align-items: center;
     }
     &__img {
-      width: 50%;
+      width: 90%;
       max-width: 900px;
       border-radius: 1rem;
     }
   }
 }
 .slide-track {
-  font-size: 6rem;
+  font-size: 4.5rem;
   display: flex;
-  // gap: 50px;
   padding-left: 0;
   width: calc(1500px * 6);
   animation: scrolling 15s linear infinite;

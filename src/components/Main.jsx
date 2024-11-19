@@ -7,8 +7,8 @@ function Main() {
   return (
     <main className='main'>
       <MainAside />
-      <MainSection />
       <MainFeaturedProjects />
+      <MainSection />
     </main>
   );
 }
