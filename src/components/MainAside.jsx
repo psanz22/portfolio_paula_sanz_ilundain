@@ -16,6 +16,7 @@ function MainAside() {
       <div className='main__aside__rrss'>
         <button className='main__aside__rrss-button'>
           <Link
+            className='link'
             to='https://www.linkedin.com/in/paula-sanz-ilundain/'
             target='_blank'
           >
@@ -23,7 +24,11 @@ function MainAside() {
           </Link>
         </button>
         <button className='main__aside__rrss-button'>
-          <Link to='https://github.com/psanz22' target='_blank'>
+          <Link
+            className='link'
+            to='https://github.com/psanz22'
+            target='_blank'
+          >
             <FontAwesomeIcon icon={faGithubAlt} size='2x' />
           </Link>
         </button>

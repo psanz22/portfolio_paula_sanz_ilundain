@@ -9,14 +9,16 @@
 .main {
   // height:0vh;
   min-width: 380px;
-
   margin: 0px 7px;
+
   &__aside {
     height: 50vh;
     background-color: #906a59;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+
     font-family: font_one-bold;
     &__containerText {
       display: flex;
@@ -46,12 +48,11 @@
     }
     &__rrss {
       display: flex;
-      flex-direction: column;
       gap: 20px;
       &-button {
         background-color: #81bda4;
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
 
         &:hover {
@@ -112,4 +113,8 @@
 
 button {
   cursor: pointer;
+}
+
+.link {
+  color: black;
 }
