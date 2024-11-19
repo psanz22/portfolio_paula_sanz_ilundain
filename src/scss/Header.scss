@@ -5,12 +5,13 @@
 
 .header {
   background-color: #b9d3b0;
+  padding: 0 10px;
   min-width: 380px;
   height: 8vh;
   margin: 7px 7px 0px 7px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 5px solid lightblue;
 
   &__nav {
@@ -19,7 +20,7 @@
     list-style: none;
   }
   &__img {
-    width: 13%;
+    width: 40px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
   }
@@ -38,10 +39,11 @@
 }
 
 .button_menu {
-  padding: 6px;
+  padding: 10px;
+  background-color: #b9d3b0;
   border-radius: 50%;
-  border: lightblue solid 1px;
-  &:hover {
-    background-color: pink;
-  }
+  border: #b9d3b0 solid 1px;
 }
+// .menu {
+//   width: 120%;
+// }
