@@ -21,11 +21,11 @@ function AboutMe() {
         <a href='#'>curriculum vitae</a>
       </div>
       <div className='wrapper__img'>
-        <img
+        {/* <img
           className='sobreMi__img'
           src='https://www.mundodeportivo.com/alfabeta/hero/2022/01/fortnite-lol-arcane-skin.jpg?width=768&aspect_ratio=16:9&format=nowebp'
           alt=''
-        />
+        /> */}
         {/* <ButtonAnimation /> */}
       </div>
     </div>
