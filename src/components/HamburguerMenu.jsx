@@ -10,6 +10,9 @@ function HamburguerMenu() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   return (
     <div className='menu'>
       <button className='button_menu ' onClick={toggleMenu}>
@@ -18,17 +21,17 @@ function HamburguerMenu() {
       {isOpen && (
         <ul className='header__nav'>
           <li>
-            <Link className='nav_link' to='/aboutme'>
+            <Link className='nav_link' to='/aboutme' onClick={closeMenu}>
               ABOUT ME
             </Link>
           </li>
           <li>
-            <Link to='proyectos' className='nav_link'>
+            <Link to='proyectos' className='nav_link' onClick={closeMenu}>
               PROYECTOS
             </Link>
           </li>
           <li>
-            <Link className='nav_link' to='/contacto'>
+            <Link className='nav_link' to='/contacto' onClick={closeMenu}>
               CONTACTO
             </Link>
           </li>
