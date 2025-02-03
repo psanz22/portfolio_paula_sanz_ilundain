@@ -1,25 +1,23 @@
-import React from 'react';
 import '../scss/AboutMe.scss';
-// import ButtonAnimation from './buttonAnimation';
 
 function AboutMe() {
   return (
-    <div className='wrapper__sobreMi'>
-      <div className='sobreMi'>
-        <h1 className='sobreMi__title'>
-          {' '}
-          Hola, soy Full Stack Developer certificada en AWS Cloud.
-        </h1>
-        <h1>_____________________________</h1>
-        <p className='sobreMi__text'>
-          Tras una carrera dedicada al audiovisual di un cambio de rumbo
-          profesional y decidí adentrarme en el mundo de la programación. Estoy
-          actualmente en búsqueda de mi próximo proyecto. ¡Contactemos!
-        </p>
-        <a href='#'>curriculum vitae</a>
-      </div>
-      <div className='wrapper__img'></div>
-    </div>
+    <>
+      <h1>
+        Hola, soy desarrolladora Full Stack Junior certificada en AWS Cloud.
+      </h1>
+      <p>
+        Me encargo de todo el proceso de desarrollo de aplicaciones web gracias
+        a mi perfil full-stack, tengo un perfil versatil gracias a mis
+        trayectoria profesional previa, hablo tres idiomas con fluidez y
+        recientemente aprobé el certificado AWS Cloud Practitioner.
+      </p>
+      <h2>SKILLS</h2>
+      <p>
+        AWS · HTML5· CSS3 · SASS· JavaScript · React · Node · Express · SQL ·
+        Python · Git · Responsive Design
+      </p>
+    </>
   );
 }
 
