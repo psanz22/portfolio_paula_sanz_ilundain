@@ -1,8 +1,7 @@
-import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../scss/HamburguerMenu.scss';
-import menu from '../../public/hamb-menu.png';
+import menu from '/hamb-menu.png';
 
 function HamburguerMenu() {
   const [isOpen, setIsOpen] = useState(false);

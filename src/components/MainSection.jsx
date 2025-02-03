@@ -1,4 +1,4 @@
-import terror from '../../public/randomTerror.png';
+import terror from '/randomTerror.png';
 
 function MainSection() {
   return (

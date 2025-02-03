@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../scss/Header.scss';
-import bird from '../../public/pajaro.png';
+import bird from '/pajaro.png';
 import HamburguerMenu from '../components/HamburguerMenu';
 
 function Header() {
