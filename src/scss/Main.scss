@@ -78,11 +78,16 @@
       background-color: #f88f79;
       height: 60vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
+    &__title {
+      font-size: 2rem;
+      font-family: font-one;
+    }
     &__img {
-      width: 90%;
+      width: 70%;
       max-width: 900px;
       border-radius: 1rem;
     }
