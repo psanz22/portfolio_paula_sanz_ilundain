@@ -30,6 +30,7 @@
       width: 10%;
     }
     &__title {
+      width: 200px;
       color: #b9d3b0;
       font-size: 2rem;
       font-family: font_one;
@@ -74,13 +75,25 @@
     }
   }
   &__section {
-    &__carroussel {
+    &__carousel {
       background-color: #f88f79;
       height: 60vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      &__wrapperText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+      }
+      &__title {
+      }
+      &__description {
+        padding: 10px 40px;
+        text-align: start;
+      }
     }
     &__title {
       font-size: 2rem;
